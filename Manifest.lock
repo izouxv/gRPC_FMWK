@@ -1,0 +1,30 @@
+PODS:
+  - BoringSSL (2.0)
+  - gRPC (0.12.0):
+    - gRPC/C-Core (= 0.12.0)
+    - gRPC/GRPCClient (= 0.12.0)
+    - gRPC/ProtoRPC (= 0.12.0)
+    - gRPC/RxLibrary (= 0.12.0)
+  - gRPC/C-Core (0.12.0):
+    - BoringSSL (~> 2.0)
+  - gRPC/GRPCClient (0.12.0):
+    - gRPC/C-Core
+    - gRPC/RxLibrary
+  - gRPC/ProtoRPC (0.12.0):
+    - gRPC/GRPCClient
+    - gRPC/RxLibrary
+    - Protobuf (~> 3.0.0-alpha-4)
+  - gRPC/RxLibrary (0.12.0)
+  - Protobuf (3.0.0-beta-2)
+
+DEPENDENCIES:
+  - gRPC (~> 0.12.0)
+
+SPEC CHECKSUMS:
+  BoringSSL: f9f1d54e79ad1795d8f47892009b1ba3de951c89
+  gRPC: 297fd91f82b8f36e6984cb701aa91eb3a2f1ef6c
+  Protobuf: f6e2be538e98cf00d9c00b276a32b7995b1f0328
+
+PODFILE CHECKSUM: d2a258256810f7dda929df5cbd6fbf6cd1f26387
+
+COCOAPODS: 1.0.0.beta.8

@@ -292,6 +292,9 @@
 		429D39CFA0E734EEA491764B33CFACC5 /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = A559D42957FA0EB539B4EF12D48DA946 /* sha256.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		42DE12132788567DB51E56CEA357A7E6 /* arm_arch.h in Copy openssl Public Headers */ = {isa = PBXBuildFile; fileRef = F641D3D5E027EF1AABA8972B1A071E80 /* arm_arch.h */; };
 		42EA80D0A5DC22AEA2207E7DCC7A79DB /* cpu_windows.c in Sources */ = {isa = PBXBuildFile; fileRef = 9E443AD2EB0F3E6616244AC5D74815DB /* cpu_windows.c */; settings = {COMPILER_FLAGS = "-GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
+		42F417651CD22D0B005D38BC /* gRPC_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F417641CD22D0B005D38BC /* gRPC_Test.swift */; };
+		42F4176F1CD22DCF005D38BC /* Helloworld.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F4176C1CD22DCF005D38BC /* Helloworld.pbobjc.m */; };
+		42F417701CD22DCF005D38BC /* Helloworld.pbrpc.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F4176E1CD22DCF005D38BC /* Helloworld.pbrpc.m */; };
 		431E304CF43B6204FD1EDA156C845C12 /* buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D8994E41492CEBBBCE8ADE20CEB7CCC /* buf.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		4330BDE4EA0B80CD1676061842039202 /* x509_txt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CC95C3295FFE922BA21A414BADF91B9 /* x509_txt.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		43347C62AAB1DBCAD8C192043D01F5E0 /* GPBMessage.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 21462345F54922B0500E719D49D68557 /* GPBMessage.h */; };
@@ -1480,6 +1483,15 @@
 		423FFDFF7E080C77787CDAD007E0AD29 /* v3_cpols.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = v3_cpols.c; path = crypto/x509v3/v3_cpols.c; sourceTree = "<group>"; };
 		428E082ADB2EADA14A82DB15F170604F /* resolver_factory.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = resolver_factory.c; path = src/core/client_config/resolver_factory.c; sourceTree = "<group>"; };
 		42EB882F4552405B6EA1FD911DF9DF5D /* writing.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = writing.c; path = src/core/transport/chttp2/writing.c; sourceTree = "<group>"; };
+		42F4175D1CD22CEA005D38BC /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		42F417621CD22D0B005D38BC /* gRPC_Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gRPC_Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F417641CD22D0B005D38BC /* gRPC_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gRPC_Test.swift; sourceTree = "<group>"; };
+		42F417661CD22D0B005D38BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F4176A1CD22DCE005D38BC /* gRPC_Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gRPC_Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		42F4176B1CD22DCF005D38BC /* Helloworld.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helloworld.pbobjc.h; sourceTree = "<group>"; };
+		42F4176C1CD22DCF005D38BC /* Helloworld.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helloworld.pbobjc.m; sourceTree = "<group>"; };
+		42F4176D1CD22DCF005D38BC /* Helloworld.pbrpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helloworld.pbrpc.h; sourceTree = "<group>"; };
+		42F4176E1CD22DCF005D38BC /* Helloworld.pbrpc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helloworld.pbrpc.m; sourceTree = "<group>"; };
 		4328B9B5F5A642E6F2B70188B61CD023 /* NSEnumerator+GRXUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSEnumerator+GRXUtil.m"; path = "src/objective-c/RxLibrary/NSEnumerator+GRXUtil.m"; sourceTree = "<group>"; };
 		434BD8969A7BAAEAC50141C9336072EC /* channel.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = channel.c; path = src/core/surface/channel.c; sourceTree = "<group>"; };
 		4353E32087EC868F7589414DBE169645 /* digest.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = digest.c; path = crypto/digest/digest.c; sourceTree = "<group>"; };
@@ -1765,7 +1777,6 @@
 		936B40BBF3923AFD2A38299DDFDD52C4 /* GPBArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBArray.m; path = objectivec/GPBArray.m; sourceTree = "<group>"; };
 		938969B52A517E305E97462982D33C84 /* tcp_windows.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tcp_windows.h; path = src/core/iomgr/tcp_windows.h; sourceTree = "<group>"; };
 		93A3A329333C8892B4D3E66291471019 /* sync_posix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sync_posix.h; path = include/grpc/support/sync_posix.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93CCF7D48639241EBC427D0F5CAEF31D /* obj_xref.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = obj_xref.c; path = crypto/obj/obj_xref.c; sourceTree = "<group>"; };
 		93DAE227827B5318CBE2EC8B477CACC2 /* channel_args.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = channel_args.h; path = src/core/channel/channel_args.h; sourceTree = "<group>"; };
 		93E4BB505668623B1AC10C6BFA5DF921 /* rsaz_exp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsaz_exp.h; path = crypto/bn/rsaz_exp.h; sourceTree = "<group>"; };
@@ -2158,6 +2169,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		42F4175F1CD22D0B005D38BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62DB9CD61A1E80B26FA9891D23FAC8A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2219,6 +2237,7 @@
 				86515A4C8D9E3804D78845663EF12E2C /* Pods_test.framework */,
 				C7D978F20A3C696E5AF60FC4FD10DF64 /* Pods_testUITests.framework */,
 				9CB9223C87E046DECA039A7E20089F48 /* Protobuf.framework */,
+				42F417621CD22D0B005D38BC /* gRPC_Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2304,6 +2323,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		42F417631CD22D0B005D38BC /* gRPC_Test */ = {
+			isa = PBXGroup;
+			children = (
+				42F4176B1CD22DCF005D38BC /* Helloworld.pbobjc.h */,
+				42F4176C1CD22DCF005D38BC /* Helloworld.pbobjc.m */,
+				42F4176D1CD22DCF005D38BC /* Helloworld.pbrpc.h */,
+				42F4176E1CD22DCF005D38BC /* Helloworld.pbrpc.m */,
+				42F417641CD22D0B005D38BC /* gRPC_Test.swift */,
+				42F417661CD22D0B005D38BC /* Info.plist */,
+				42F4176A1CD22DCE005D38BC /* gRPC_Test-Bridging-Header.h */,
+			);
+			path = gRPC_Test;
+			sourceTree = "<group>";
+		};
 		525692B698D5969928C4EE35D67D4FE1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -2339,7 +2372,8 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				42F4175D1CD22CEA005D38BC /* Podfile */,
+				42F417631CD22D0B005D38BC /* gRPC_Test */,
 				E9280EDE81D00E99EC4176C3D4077B8A /* Frameworks */,
 				C66EF204756C5E28F75342A1E08BB6BF /* Pods */,
 				0BD9F14897C46E2DFFA54A89CD6F7E91 /* Products */,
@@ -3755,6 +3789,23 @@
 			productReference = 8B0BCAC89AE5D29487AE7E6646AF4A37 /* gRPC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		42F417611CD22D0B005D38BC /* gRPC_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F417671CD22D0B005D38BC /* Build configuration list for PBXNativeTarget "gRPC_Test" */;
+			buildPhases = (
+				42F4175E1CD22D0B005D38BC /* Sources */,
+				42F4175F1CD22D0B005D38BC /* Frameworks */,
+				42F417601CD22D0B005D38BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gRPC_Test;
+			productName = gRPC_Test;
+			productReference = 42F417621CD22D0B005D38BC /* gRPC_Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		56E6D785F2F0DE144D17C95A5A3CA2D0 /* BoringSSL */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3789907E5913C2FA6A4BA37857CF3C7C /* Build configuration list for PBXNativeTarget "BoringSSL" */;
@@ -3818,8 +3869,13 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					42F417611CD22D0B005D38BC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -3839,11 +3895,19 @@
 				D34964DB8E97DE4A48EAFC2D18EB85F9 /* Pods-test */,
 				3BD43443ED5D98BB2009B4ADD3E5DE97 /* Pods-testUITests */,
 				AC9600592B4F36A82E0F1770D734B389 /* Protobuf */,
+				42F417611CD22D0B005D38BC /* gRPC_Test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		42F417601CD22D0B005D38BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4433B68EC65942EF439604BD8F44D882 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4412,6 +4476,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		42F4175E1CD22D0B005D38BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F4176F1CD22DCF005D38BC /* Helloworld.pbobjc.m in Sources */,
+				42F417651CD22D0B005D38BC /* gRPC_Test.swift in Sources */,
+				42F417701CD22DCF005D38BC /* Helloworld.pbrpc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59A5D35B25D76E5BEB1304B0545EA1BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4575,6 +4649,60 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42F417681CD22D0B005D38BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = gRPC_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.gRPC-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "gRPC_Test/gRPC_Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42F417691CD22D0B005D38BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = gRPC_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.gRPC-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "gRPC_Test/gRPC_Test-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -4980,6 +5108,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		42F417671CD22D0B005D38BC /* Build configuration list for PBXNativeTarget "gRPC_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F417681CD22D0B005D38BC /* Debug */,
+				42F417691CD22D0B005D38BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		4B37A990250127045F218356588AD7C3 /* Build configuration list for PBXNativeTarget "Protobuf" */ = {
 			isa = XCConfigurationList;

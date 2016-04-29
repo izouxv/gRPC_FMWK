@@ -19,12 +19,10 @@
 		0250BDA2B732719C558DB7A5C6AF3200 /* lhash_macros.h in Copy openssl Public Headers */ = {isa = PBXBuildFile; fileRef = C55C6DB0E934885E95F774408E98E7FF /* lhash_macros.h */; };
 		0292828D4DD9E7CBF258888C2BF132C4 /* census_rpc_stats.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E28EFD695BAF254DC1F135732A3231C /* census_rpc_stats.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		02B59F18C4133EA91F2BD52BDAFB888D /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B73519C5A548397804A596B980CC65A /* buffer.h */; };
-		038EFD1DB49E7367BDF48A9794B25F2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123389652D3A8895AE5B2A522A243CC4 /* Foundation.framework */; };
 		0397FB40915D120AADB2C673029DF53E /* socket_windows.c in Sources */ = {isa = PBXBuildFile; fileRef = BF443819AB7EF1427F97A8BF0C991358 /* socket_windows.c */; settings = {COMPILER_FLAGS = "-GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		03C7F16218A3B97E0D6390C09A7BC612 /* initial_connect_string.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADA045E4B754B732748B4601994551 /* initial_connect_string.c */; settings = {COMPILER_FLAGS = "-GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		03D8605ADF4ABEA94632C518FD5F7A92 /* murmur_hash.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC037C27C97CDB54B96AF29AC572231 /* murmur_hash.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0413145D91A12CC9D55A37ECA1E802DC /* bn.c in Sources */ = {isa = PBXBuildFile; fileRef = 962E7A2A1DBAA2A0910EC2E9E496576D /* bn.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
-		043268C290DC733021221D1AD5D8962D /* Pods-testUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6680E0432D8599B62286C5CE5D064 /* Pods-testUITests-dummy.m */; };
 		04D0CB87C800BF2B95BFCF200FA49790 /* GRPCRequestHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = CF730DDFD421DB8D5F85854EE705C544 /* GRPCRequestHeaders.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		04D19F099E648ABDD0FCC5518EDE32BD /* fd_posix.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB648B0F05A834D8E8149A342E1891F /* fd_posix.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		04DAADD380A6E385A093BA3D2C8EBE03 /* wakeup_fd_eventfd.c in Sources */ = {isa = PBXBuildFile; fileRef = 4237B0A88477AFED0090F633E39C96BC /* wakeup_fd_eventfd.c */; settings = {COMPILER_FLAGS = "-GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
@@ -295,6 +293,39 @@
 		42F417651CD22D0B005D38BC /* gRPC_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F417641CD22D0B005D38BC /* gRPC_Test.swift */; };
 		42F4176F1CD22DCF005D38BC /* Helloworld.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F4176C1CD22DCF005D38BC /* Helloworld.pbobjc.m */; };
 		42F417701CD22DCF005D38BC /* Helloworld.pbrpc.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F4176E1CD22DCF005D38BC /* Helloworld.pbrpc.m */; };
+		42F417851CD2FBEE005D38BC /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF84DE0D29F3F504818A67640C2D1EC /* BoringSSL.framework */; };
+		42F417861CD2FBF3005D38BC /* gRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0BCAC89AE5D29487AE7E6646AF4A37 /* gRPC.framework */; };
+		42F417871CD2FBF3005D38BC /* gRPCCertificates.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B4C1B9F4E82E3FFA227B25CE4DDFC2 /* gRPCCertificates.bundle */; };
+		42F417881CD2FBF7005D38BC /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB9223C87E046DECA039A7E20089F48 /* Protobuf.framework */; };
+		42F4178D1CD30111005D38BC /* GRPCCall.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = 510E1259BF771C1F5E3FBF89E109E29D /* GRPCCall.h */; };
+		42F4178E1CD30111005D38BC /* GRPCCall+OAuth2.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = F2B056613BCF78B3A78271B47B1ED925 /* GRPCCall+OAuth2.h */; };
+		42F4178F1CD30111005D38BC /* GRPCCall+Tests.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = 0E27CDAAD969D6C2AD3A446C25F0EAF8 /* GRPCCall+Tests.h */; };
+		42F417901CD30111005D38BC /* GRPCChannel.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = 666DC7EA44324CE91A9BC7039D3DAA9D /* GRPCChannel.h */; };
+		42F417911CD30111005D38BC /* GRPCCompletionQueue.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = AB69F2719EC65FEF62AE6949DB6C7D91 /* GRPCCompletionQueue.h */; };
+		42F417921CD30111005D38BC /* GRPCHost.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = 93E5ABC286741C53716F70E40ABB9FA6 /* GRPCHost.h */; };
+		42F417931CD30111005D38BC /* GRPCRequestHeaders.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = CF730DDFD421DB8D5F85854EE705C544 /* GRPCRequestHeaders.h */; };
+		42F417941CD30111005D38BC /* GRPCSecureChannel.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = FE17A885EF165D3F8AF669E9B545D6CE /* GRPCSecureChannel.h */; };
+		42F417951CD30111005D38BC /* GRPCUnsecuredChannel.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = 16B7F0BFAB261919D4A01806BFD258CF /* GRPCUnsecuredChannel.h */; };
+		42F417961CD30111005D38BC /* GRPCWrappedCall.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = B60F2995BE861AC97CA52F1B8B989D8B /* GRPCWrappedCall.h */; };
+		42F417971CD30111005D38BC /* NSData+GRPC.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = 9F45BAD8FCD3F0FFD823FCCC59357BED /* NSData+GRPC.h */; };
+		42F417981CD30111005D38BC /* NSDictionary+GRPC.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = E3F4BCCA273A5BC5857A62A9EE90CB19 /* NSDictionary+GRPC.h */; };
+		42F417991CD30111005D38BC /* NSError+GRPC.h in Copy Files GRPCClient */ = {isa = PBXBuildFile; fileRef = 914EAD46350340591D98812963C91B22 /* NSError+GRPC.h */; };
+		42F4179B1CD30149005D38BC /* GRXBufferedPipe.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = 1DF5834724E834F69F4B19CF119CD168 /* GRXBufferedPipe.h */; };
+		42F4179C1CD30149005D38BC /* GRXConcurrentWriteable.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = D35F1B779B9FA68FEBFD75B6C1F7DC57 /* GRXConcurrentWriteable.h */; };
+		42F4179D1CD30149005D38BC /* GRXForwardingWriter.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = 01BFFC336FD8A4AF064E05241488A8D6 /* GRXForwardingWriter.h */; };
+		42F4179E1CD30149005D38BC /* GRXImmediateWriter.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = 7AF31E2E2845F26657F596CA0FE114AD /* GRXImmediateWriter.h */; };
+		42F4179F1CD30149005D38BC /* GRXMappingWriter.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = C18BC6B409E10E9B6601FED5CB2E7933 /* GRXMappingWriter.h */; };
+		42F417A01CD30149005D38BC /* GRXNSBlockEnumerator.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = 00C45829F213E6921E025FD8753B1602 /* GRXNSBlockEnumerator.h */; };
+		42F417A11CD30149005D38BC /* GRXNSFastEnumerator.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = D9EF0CE4B5094DCD316A6E26BD3732E5 /* GRXNSFastEnumerator.h */; };
+		42F417A21CD30149005D38BC /* GRXNSScalarEnumerator.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = A7566390ED1A4E7CE7217A701588CC13 /* GRXNSScalarEnumerator.h */; };
+		42F417A31CD30149005D38BC /* GRXWriteable.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = 9850A3B4E5C96CC011B013B420B80974 /* GRXWriteable.h */; };
+		42F417A41CD30149005D38BC /* GRXWriter.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = C660D9A3C31D91836D8F4B4D26554092 /* GRXWriter.h */; };
+		42F417A51CD30149005D38BC /* GRXWriter+Immediate.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = CDBCE22BDCB2139978A2F90919D82404 /* GRXWriter+Immediate.h */; };
+		42F417A61CD30149005D38BC /* GRXWriter+Transformations.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = 81F84AFF27873561B588F4CC4D943534 /* GRXWriter+Transformations.h */; };
+		42F417A71CD30149005D38BC /* NSEnumerator+GRXUtil.h in Copy Files RxLibrary */ = {isa = PBXBuildFile; fileRef = 7ECC99A78FE20843C7B4ABD10E28D303 /* NSEnumerator+GRXUtil.h */; };
+		42F417A91CD3018D005D38BC /* ProtoMethod.h in Copy Files ProtoRPC */ = {isa = PBXBuildFile; fileRef = 8EA62B282F8A3A7646635723359AE1E0 /* ProtoMethod.h */; };
+		42F417AA1CD3018D005D38BC /* ProtoRPC.h in Copy Files ProtoRPC */ = {isa = PBXBuildFile; fileRef = 916D91E7CC515750E6892DFD898B6C53 /* ProtoRPC.h */; };
+		42F417AB1CD3018D005D38BC /* ProtoService.h in Copy Files ProtoRPC */ = {isa = PBXBuildFile; fileRef = 791B26C24BCB9A945A7BDE7BB3D4DB53 /* ProtoService.h */; };
 		431E304CF43B6204FD1EDA156C845C12 /* buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D8994E41492CEBBBCE8ADE20CEB7CCC /* buf.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		4330BDE4EA0B80CD1676061842039202 /* x509_txt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CC95C3295FFE922BA21A414BADF91B9 /* x509_txt.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		43347C62AAB1DBCAD8C192043D01F5E0 /* GPBMessage.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 21462345F54922B0500E719D49D68557 /* GPBMessage.h */; };
@@ -310,7 +341,6 @@
 		470F031E83D11BD35D85869B5A7F6A08 /* e_tls.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E96735DC85A4451C40A819CCDA9F040 /* e_tls.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		471F07530C17EC258FAA39648D309C83 /* tcp_posix.h in Headers */ = {isa = PBXBuildFile; fileRef = A1824648A97BE829CF4C10A733F42866 /* tcp_posix.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		47DF4A653E23DC32D352020960EEA803 /* opensslfeatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 1982AB9CEC0CB9FB299D7D336AD39115 /* opensslfeatures.h */; };
-		48886C1725D54D37CB6DB0B144646C9B /* Pods-test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C71EBF7F02A53405852483A493E9BC /* Pods-test-dummy.m */; };
 		48B6B72FC252652BC9A99295D299A1ED /* x509_r2x.c in Sources */ = {isa = PBXBuildFile; fileRef = EEC3C0534BB1C7C979BA646C0DC50AC3 /* x509_r2x.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		48C38E5B8898A091ED21731192AEFCB2 /* v3_sxnet.c in Sources */ = {isa = PBXBuildFile; fileRef = A966DB7E53631C78AB899F9B7682BC69 /* v3_sxnet.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		48E5555DC713805AB53EA5CB72BE8F4F /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D50635949A007B9EACC4B8F22756E4DE /* Api.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -592,7 +622,6 @@
 		913B05907C64B117A6FDB57F57BAF8CC /* GRPCCompletionQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C234A6DACBB9E6DAFACB3BA4C9BC63 /* GRPCCompletionQueue.m */; };
 		91778EA30FD2CA758AE26C3B3BE05737 /* ec.h in Headers */ = {isa = PBXBuildFile; fileRef = 11260E06A0EDB1B9A684C4388AE34A03 /* ec.h */; };
 		91AE19D607C20C4FF3D30ED9CC9DF79F /* rsa.h in Copy openssl Public Headers */ = {isa = PBXBuildFile; fileRef = 5EEE7AD9EF097588C302B32245E09392 /* rsa.h */; };
-		91BD2C440305EF9D360C4EBEEC50E35C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123389652D3A8895AE5B2A522A243CC4 /* Foundation.framework */; };
 		91F842F28E54C1E2958F025822A6A3B7 /* engine.h in Headers */ = {isa = PBXBuildFile; fileRef = E576741C49FC8491C1193D6EAFF60420 /* engine.h */; };
 		9246DDBB541CB1B1CD9ADF6DC7ED5FF0 /* srtp.h in Copy openssl Public Headers */ = {isa = PBXBuildFile; fileRef = 8C709A27067244C8C78AC3EA1693E67A /* srtp.h */; };
 		9268DA3398FF9D13B1E520CD9F9E66A1 /* x509_vpm.c in Sources */ = {isa = PBXBuildFile; fileRef = B5E88AEB3070BDA2D8D8D35E40F105A6 /* x509_vpm.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
@@ -748,7 +777,6 @@
 		B93547EF03CAFFB9D7576DED98A135E4 /* dtls_record.c in Sources */ = {isa = PBXBuildFile; fileRef = 258D8528B413B7A606F566AB9F51688D /* dtls_record.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		B9A2762D8D05AF242D8D8D8A5574AECB /* GRXMappingWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = C18BC6B409E10E9B6601FED5CB2E7933 /* GRXMappingWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA1BE7E79BB0AF176B338D9AFBAA62E7 /* timer_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3145C8DB9D959477E370B5F488444F06 /* timer_internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BA4AE6CCA6FCCAC2055CCBA51A75F904 /* Pods-test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 151A75CFD928C97EE1A05F68C68CAFCC /* Pods-test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB05AEFA00914F97408717DA5F78DB71 /* wakeup_fd_nospecial.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B84DCFC66801BE7BC1F094C879EC0 /* wakeup_fd_nospecial.c */; settings = {COMPILER_FLAGS = "-GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		BB6233D121EB8941493747944083D2AC /* GPBUnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 37336E8352723BBB42D24AEF81B70047 /* GPBUnknownFieldSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BB9DD30B6F516FD74CAE6FB9FCAD36BF /* ecdsa.h in Copy openssl Public Headers */ = {isa = PBXBuildFile; fileRef = B2EF9A446153D1755521DC7B3F3BE470 /* ecdsa.h */; };
@@ -910,7 +938,6 @@
 		E0BA2595522C1E251AFD988B8B5DEE74 /* GRXConcurrentWriteable.m in Sources */ = {isa = PBXBuildFile; fileRef = 702FF19928320631B975967B05288BCE /* GRXConcurrentWriteable.m */; };
 		E198F3C529A9D095D47E38D26A268C4D /* GRXNSScalarEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0A171A93CD4FB0B2A2680FCA49429E /* GRXNSScalarEnumerator.m */; };
 		E1B36FEB85C90703AE154FF70877D450 /* dsa.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E14B6EB60E7A3EE4822C9338415FFC /* dsa.h */; };
-		E1B6A026968B613BC2FD824601E770AA /* Pods-testUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EE0EA3395712AD6C14F62145685FB3 /* Pods-testUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1FCEE95B05298D0E937EFFE6DFBBFBD /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 790B3F60BB248999D5C5C51327ECD4D7 /* hmac.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		E2348490BA8689709BEE86B63611B585 /* Wrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ECF6DEA60FECEA77E502AD85CE04D9 /* Wrappers.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2603A00A825ACB3C5F2E63EAC684748 /* endpoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A1ABD2B3B4D594908E0BD928814138B /* endpoint.c */; settings = {COMPILER_FLAGS = "-GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
@@ -1038,12 +1065,12 @@
 			remoteGlobalIDString = 2F0DEE284B125511FBF8AEAEC0093ED6;
 			remoteInfo = "gRPC-gRPCCertificates";
 		};
-		34D2C6D10D0B8B8FBD220E4F57B8C3E6 /* PBXContainerItemProxy */ = {
+		42F4177F1CD2FBEB005D38BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AC9600592B4F36A82E0F1770D734B389;
-			remoteInfo = Protobuf;
+			remoteGlobalIDString = 40E383E4B79BA228A313483DA01686A9;
+			remoteInfo = gRPC;
 		};
 		96B0EDD58CF6653CA9F872DCA3F26589 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1052,26 +1079,12 @@
 			remoteGlobalIDString = AC9600592B4F36A82E0F1770D734B389;
 			remoteInfo = Protobuf;
 		};
-		99452D513BF4AF60CCFC729D7BB9E689 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 56E6D785F2F0DE144D17C95A5A3CA2D0;
-			remoteInfo = BoringSSL;
-		};
 		B67418B39B8E32C7E97FE27566F86556 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 56E6D785F2F0DE144D17C95A5A3CA2D0;
 			remoteInfo = BoringSSL;
-		};
-		E05F988AF7067C6EF378CA99ECC79377 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 40E383E4B79BA228A313483DA01686A9;
-			remoteInfo = gRPC;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1192,6 +1205,65 @@
 				E80507385557B0197766BB0CE710B18C /* x509v3.h in Copy openssl Public Headers */,
 			);
 			name = "Copy openssl Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F4178C1CD300CB005D38BC /* Copy Files GRPCClient */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/GRPCClient";
+			dstSubfolderSpec = 16;
+			files = (
+				42F4178D1CD30111005D38BC /* GRPCCall.h in Copy Files GRPCClient */,
+				42F4178E1CD30111005D38BC /* GRPCCall+OAuth2.h in Copy Files GRPCClient */,
+				42F4178F1CD30111005D38BC /* GRPCCall+Tests.h in Copy Files GRPCClient */,
+				42F417901CD30111005D38BC /* GRPCChannel.h in Copy Files GRPCClient */,
+				42F417911CD30111005D38BC /* GRPCCompletionQueue.h in Copy Files GRPCClient */,
+				42F417921CD30111005D38BC /* GRPCHost.h in Copy Files GRPCClient */,
+				42F417931CD30111005D38BC /* GRPCRequestHeaders.h in Copy Files GRPCClient */,
+				42F417941CD30111005D38BC /* GRPCSecureChannel.h in Copy Files GRPCClient */,
+				42F417951CD30111005D38BC /* GRPCUnsecuredChannel.h in Copy Files GRPCClient */,
+				42F417961CD30111005D38BC /* GRPCWrappedCall.h in Copy Files GRPCClient */,
+				42F417971CD30111005D38BC /* NSData+GRPC.h in Copy Files GRPCClient */,
+				42F417981CD30111005D38BC /* NSDictionary+GRPC.h in Copy Files GRPCClient */,
+				42F417991CD30111005D38BC /* NSError+GRPC.h in Copy Files GRPCClient */,
+			);
+			name = "Copy Files GRPCClient";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F4179A1CD30123005D38BC /* Copy Files RxLibrary */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/RxLibrary";
+			dstSubfolderSpec = 16;
+			files = (
+				42F4179B1CD30149005D38BC /* GRXBufferedPipe.h in Copy Files RxLibrary */,
+				42F4179C1CD30149005D38BC /* GRXConcurrentWriteable.h in Copy Files RxLibrary */,
+				42F4179D1CD30149005D38BC /* GRXForwardingWriter.h in Copy Files RxLibrary */,
+				42F4179E1CD30149005D38BC /* GRXImmediateWriter.h in Copy Files RxLibrary */,
+				42F4179F1CD30149005D38BC /* GRXMappingWriter.h in Copy Files RxLibrary */,
+				42F417A01CD30149005D38BC /* GRXNSBlockEnumerator.h in Copy Files RxLibrary */,
+				42F417A11CD30149005D38BC /* GRXNSFastEnumerator.h in Copy Files RxLibrary */,
+				42F417A21CD30149005D38BC /* GRXNSScalarEnumerator.h in Copy Files RxLibrary */,
+				42F417A31CD30149005D38BC /* GRXWriteable.h in Copy Files RxLibrary */,
+				42F417A41CD30149005D38BC /* GRXWriter.h in Copy Files RxLibrary */,
+				42F417A51CD30149005D38BC /* GRXWriter+Immediate.h in Copy Files RxLibrary */,
+				42F417A61CD30149005D38BC /* GRXWriter+Transformations.h in Copy Files RxLibrary */,
+				42F417A71CD30149005D38BC /* NSEnumerator+GRXUtil.h in Copy Files RxLibrary */,
+			);
+			name = "Copy Files RxLibrary";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F417A81CD30158005D38BC /* Copy Files ProtoRPC */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/ProtoRPC";
+			dstSubfolderSpec = 16;
+			files = (
+				42F417A91CD3018D005D38BC /* ProtoMethod.h in Copy Files ProtoRPC */,
+				42F417AA1CD3018D005D38BC /* ProtoRPC.h in Copy Files ProtoRPC */,
+				42F417AB1CD3018D005D38BC /* ProtoService.h in Copy Files ProtoRPC */,
+			);
+			name = "Copy Files ProtoRPC";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D7D6E65DBD82A28EA282D48E4233EE3A /* Copy google/protobuf Public Headers */ = {
@@ -1733,7 +1805,6 @@
 		85A5EBA1025FF94562E799BCEA308F70 /* httpcli_security_connector.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = httpcli_security_connector.c; path = src/core/httpcli/httpcli_security_connector.c; sourceTree = "<group>"; };
 		85B1A35640DF4F76CC50AB2032E585E3 /* BoringSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoringSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B33D120C9EEE8329E9127B411EDAC3 /* ssl_cipher.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ssl_cipher.c; path = ssl/ssl_cipher.c; sourceTree = "<group>"; };
-		86515A4C8D9E3804D78845663EF12E2C /* Pods_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86FE215F5178AEBF46454280B44F36A5 /* thd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thd.h; path = include/grpc/support/thd.h; sourceTree = "<group>"; };
 		873314E06D248E7FA7CAAF2186922C28 /* aes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aes.c; path = crypto/aes/aes.c; sourceTree = "<group>"; };
 		87719AA425F2C77CE08561330B667BC1 /* format_request.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = format_request.c; path = src/core/httpcli/format_request.c; sourceTree = "<group>"; };
@@ -1977,7 +2048,6 @@
 		C70272F4629A1DF697BB3DFFAD48DC23 /* d1_both.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = d1_both.c; path = ssl/d1_both.c; sourceTree = "<group>"; };
 		C70FC8527A821B47A16D0D77014AA7FD /* thread_win.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = thread_win.c; path = crypto/thread_win.c; sourceTree = "<group>"; };
 		C7B7E90631D01A2800B2A905DD1576B4 /* obj_xref.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_xref.h; path = crypto/obj/obj_xref.h; sourceTree = "<group>"; };
-		C7D978F20A3C696E5AF60FC4FD10DF64 /* Pods_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85ADFAD5A0520B4535659A0D33C76BB /* v3_purp.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = v3_purp.c; path = crypto/x509v3/v3_purp.c; sourceTree = "<group>"; };
 		C861613A250F9F4C3D216D7F9BD401AD /* pollset_multipoller_with_epoll.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pollset_multipoller_with_epoll.c; path = src/core/iomgr/pollset_multipoller_with_epoll.c; sourceTree = "<group>"; };
 		C863A8DDAE97FCF8AE056D41E737202F /* pem_oth.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pem_oth.c; path = crypto/pem/pem_oth.c; sourceTree = "<group>"; };
@@ -2173,22 +2243,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62DB9CD61A1E80B26FA9891D23FAC8A3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				038EFD1DB49E7367BDF48A9794B25F2A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		66ECBFF65C58B7C2C30C05A88E0A2F3F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91BD2C440305EF9D360C4EBEEC50E35C /* Foundation.framework in Frameworks */,
+				42F417851CD2FBEE005D38BC /* BoringSSL.framework in Frameworks */,
+				42F417881CD2FBF7005D38BC /* Protobuf.framework in Frameworks */,
+				42F417861CD2FBF3005D38BC /* gRPC.framework in Frameworks */,
+				42F417871CD2FBF3005D38BC /* gRPCCertificates.bundle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2234,8 +2292,6 @@
 				BCF84DE0D29F3F504818A67640C2D1EC /* BoringSSL.framework */,
 				8B0BCAC89AE5D29487AE7E6646AF4A37 /* gRPC.framework */,
 				19B4C1B9F4E82E3FFA227B25CE4DDFC2 /* gRPCCertificates.bundle */,
-				86515A4C8D9E3804D78845663EF12E2C /* Pods_test.framework */,
-				C7D978F20A3C696E5AF60FC4FD10DF64 /* Pods_testUITests.framework */,
 				9CB9223C87E046DECA039A7E20089F48 /* Protobuf.framework */,
 				42F417621CD22D0B005D38BC /* gRPC_Test.xctest */,
 			);
@@ -3504,22 +3560,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B84BAEF98A325AD2618060A8E59E4BE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1B6A026968B613BC2FD824601E770AA /* Pods-testUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAFF928BDC9FCD8AF93A517BA439BAEA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA4AE6CCA6FCCAC2055CCBA51A75F904 /* Pods-test-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BCBFBF3C2029603900396E5E89A3DEAD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -3751,23 +3791,6 @@
 			productReference = 19B4C1B9F4E82E3FFA227B25CE4DDFC2 /* gRPCCertificates.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		3BD43443ED5D98BB2009B4ADD3E5DE97 /* Pods-testUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DAE47540ADC818D05ADA4AE2D1956ACF /* Build configuration list for PBXNativeTarget "Pods-testUITests" */;
-			buildPhases = (
-				35042B18B57878F062F4D102CC1B2348 /* Sources */,
-				62DB9CD61A1E80B26FA9891D23FAC8A3 /* Frameworks */,
-				9B84BAEF98A325AD2618060A8E59E4BE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-testUITests";
-			productName = "Pods-testUITests";
-			productReference = C7D978F20A3C696E5AF60FC4FD10DF64 /* Pods_testUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		40E383E4B79BA228A313483DA01686A9 /* gRPC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB028089AA779B8EEEAD0F393FBBC14A /* Build configuration list for PBXNativeTarget "gRPC" */;
@@ -3776,6 +3799,9 @@
 				E3A97AEDA78F1446E5766B65CBAC2C05 /* Frameworks */,
 				BE7810F051EA889A5AA0207442CBA38E /* Resources */,
 				BCBFBF3C2029603900396E5E89A3DEAD /* Headers */,
+				42F4178C1CD300CB005D38BC /* Copy Files GRPCClient */,
+				42F4179A1CD30123005D38BC /* Copy Files RxLibrary */,
+				42F417A81CD30158005D38BC /* Copy Files ProtoRPC */,
 			);
 			buildRules = (
 			);
@@ -3800,6 +3826,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				42F417801CD2FBEB005D38BC /* PBXTargetDependency */,
 			);
 			name = gRPC_Test;
 			productName = gRPC_Test;
@@ -3843,26 +3870,6 @@
 			productReference = 9CB9223C87E046DECA039A7E20089F48 /* Protobuf.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D34964DB8E97DE4A48EAFC2D18EB85F9 /* Pods-test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A60FC374C1D98A1F452CC8D57F92194 /* Build configuration list for PBXNativeTarget "Pods-test" */;
-			buildPhases = (
-				B496F4D7920A138E5E99460AF8C9A4B0 /* Sources */,
-				66ECBFF65C58B7C2C30C05A88E0A2F3F /* Frameworks */,
-				BAFF928BDC9FCD8AF93A517BA439BAEA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				505FB05FEAF7B64B557C8064FA6BE596 /* PBXTargetDependency */,
-				F60C88CDD67DF346EE60CAFF6CF453AF /* PBXTargetDependency */,
-				5747689D802077CF39992C580023CDB8 /* PBXTargetDependency */,
-			);
-			name = "Pods-test";
-			productName = "Pods-test";
-			productReference = 86515A4C8D9E3804D78845663EF12E2C /* Pods_test.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3892,8 +3899,6 @@
 				56E6D785F2F0DE144D17C95A5A3CA2D0 /* BoringSSL */,
 				40E383E4B79BA228A313483DA01686A9 /* gRPC */,
 				2F0DEE284B125511FBF8AEAEC0093ED6 /* gRPC-gRPCCertificates */,
-				D34964DB8E97DE4A48EAFC2D18EB85F9 /* Pods-test */,
-				3BD43443ED5D98BB2009B4ADD3E5DE97 /* Pods-testUITests */,
 				AC9600592B4F36A82E0F1770D734B389 /* Protobuf */,
 				42F417611CD22D0B005D38BC /* gRPC_Test */,
 			);
@@ -3931,14 +3936,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35042B18B57878F062F4D102CC1B2348 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				043268C290DC733021221D1AD5D8962D /* Pods-testUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4517,28 +4514,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B496F4D7920A138E5E99460AF8C9A4B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48886C1725D54D37CB6DB0B144646C9B /* Pods-test-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		505FB05FEAF7B64B557C8064FA6BE596 /* PBXTargetDependency */ = {
+		42F417801CD2FBEB005D38BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BoringSSL;
-			target = 56E6D785F2F0DE144D17C95A5A3CA2D0 /* BoringSSL */;
-			targetProxy = 99452D513BF4AF60CCFC729D7BB9E689 /* PBXContainerItemProxy */;
-		};
-		5747689D802077CF39992C580023CDB8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = gRPC;
 			target = 40E383E4B79BA228A313483DA01686A9 /* gRPC */;
-			targetProxy = E05F988AF7067C6EF378CA99ECC79377 /* PBXContainerItemProxy */;
+			targetProxy = 42F4177F1CD2FBEB005D38BC /* PBXContainerItemProxy */;
 		};
 		7B477D746AB365AF3A48EF19EE4E240A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4557,12 +4539,6 @@
 			name = BoringSSL;
 			target = 56E6D785F2F0DE144D17C95A5A3CA2D0 /* BoringSSL */;
 			targetProxy = B67418B39B8E32C7E97FE27566F86556 /* PBXContainerItemProxy */;
-		};
-		F60C88CDD67DF346EE60CAFF6CF453AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Protobuf;
-			target = AC9600592B4F36A82E0F1770D734B389 /* Protobuf */;
-			targetProxy = 34D2C6D10D0B8B8FBD220E4F57B8C3E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4706,39 +4682,6 @@
 			};
 			name = Release;
 		};
-		49B918B1F9272E3EA3C3113944C82093 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B43182BFB6E233E79E972245EC4E8CD /* Pods-test.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-test/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-test/Pods-test.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_test;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		54821E317801AA8E781897320478EB45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 470A5373F15A1DB6F579EE98D3884A03 /* Protobuf.xcconfig */;
@@ -4851,39 +4794,6 @@
 			};
 			name = Debug;
 		};
-		A18D834256897D965CE6DEAF484D6007 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B1DBB6A7F397FD2724843455A8F2F0C /* Pods-testUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-testUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-testUITests/Pods-testUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_testUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		A804C32D0B5E6775837B75D23CD9C951 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C557B1BE68B5EFBE0309BB0A0405B5B0 /* BoringSSL.xcconfig */;
@@ -4957,72 +4867,6 @@
 			};
 			name = Release;
 		};
-		D6AE30F23B599CDAEA6C07A819BB696B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CBBFD73772292BB337A13A27E5CB5CE /* Pods-test.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-test/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-test/Pods-test.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_test;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F347EF76CB5AC8955AFB1A7EF46A398A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF0E762278B937821B3E659200154C53 /* Pods-testUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-testUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-testUITests/Pods-testUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_testUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F6221FD47730725CD0D4E37BAA9211E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C90EEE736F325AAA24F81C4D49DC928 /* gRPC.xcconfig */;
@@ -5082,15 +4926,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A60FC374C1D98A1F452CC8D57F92194 /* Build configuration list for PBXNativeTarget "Pods-test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6AE30F23B599CDAEA6C07A819BB696B /* Debug */,
-				49B918B1F9272E3EA3C3113944C82093 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -5140,15 +4975,6 @@
 			buildConfigurations = (
 				FB2CE82E0A60DE5323B48D1CFF717773 /* Debug */,
 				BA32CCB811E66EAA1F2460F0DB206DB3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DAE47540ADC818D05ADA4AE2D1956ACF /* Build configuration list for PBXNativeTarget "Pods-testUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F347EF76CB5AC8955AFB1A7EF46A398A /* Debug */,
-				A18D834256897D965CE6DEAF484D6007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

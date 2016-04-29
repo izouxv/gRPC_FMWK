@@ -1,22 +1,20 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5CF50C2FB5BA044781A1E7D66E045FE9FFE91447",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "5CF50C2FB5BA044781A1E7D66E045FE9FFE91447" : 0,
-    "482DBFFF4058FC4D341815E134C748E9E8C3E07F" : 0,
-    "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD" : 0
+    "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD" : 0,
+    "482DBFFF4058FC4D341815E134C748E9E8C3E07F" : 0
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FA668FD4-777F-4934-BDA1-9AA0565F5D84",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0D9D3926-4564-46E2-8246-7EB3B8FC4F5E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "5CF50C2FB5BA044781A1E7D66E045FE9FFE91447" : "gRPC_FMWK\/",
-    "482DBFFF4058FC4D341815E134C748E9E8C3E07F" : "..\/..\/..\/..\/..\/..",
-    "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD" : "..\/..\/..\/..\/.."
+    "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD" : "todo\/",
+    "482DBFFF4058FC4D341815E134C748E9E8C3E07F" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Pods",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Pods.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "fisher\/mgr\/fish\/Carthage\/Checkouts\/gRPC_FMWK\/Pods.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/fish.red\/zouxu\/goall",
@@ -27,11 +25,6 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/fish.red\/zouxu\/todo.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/izouxv\/gRPC_FMWK.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5CF50C2FB5BA044781A1E7D66E045FE9FFE91447"
     }
   ]
 }

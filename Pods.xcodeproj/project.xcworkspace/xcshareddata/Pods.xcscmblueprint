@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5CF50C2FB5BA044781A1E7D66E045FE9FFE91447",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5CF50C2FB5BA044781A1E7D66E045FE9FFE91447" : 0,
+    "482DBFFF4058FC4D341815E134C748E9E8C3E07F" : 0,
+    "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FA668FD4-777F-4934-BDA1-9AA0565F5D84",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5CF50C2FB5BA044781A1E7D66E045FE9FFE91447" : "gRPC_FMWK\/",
+    "482DBFFF4058FC4D341815E134C748E9E8C3E07F" : "..\/..\/..\/..\/..\/..",
+    "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD" : "..\/..\/..\/..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pods",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Pods.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/fish.red\/zouxu\/goall",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "482DBFFF4058FC4D341815E134C748E9E8C3E07F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/fish.red\/zouxu\/todo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/izouxv\/gRPC_FMWK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5CF50C2FB5BA044781A1E7D66E045FE9FFE91447"
+    }
+  ]
+}

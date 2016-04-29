@@ -281,6 +281,8 @@
 		41B298FE04C00C2E094DB31E0945694B /* wnaf.c in Sources */ = {isa = PBXBuildFile; fileRef = F5A5342CEF4C17AD84F8F88C53021B5C /* wnaf.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		41BD8A824A022977B5E5B6F50ACACF54 /* rand.c in Sources */ = {isa = PBXBuildFile; fileRef = CFE15FDE1E379DAB94D829266DB27B30 /* rand.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		421AA0E9C961A178B3339D044B8B52F5 /* bytestring.h in Headers */ = {isa = PBXBuildFile; fileRef = CA96B862435A21791F9191D89816A96D /* bytestring.h */; };
+		423782201CD36C9000CCF1EA /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF84DE0D29F3F504818A67640C2D1EC /* BoringSSL.framework */; };
+		423782211CD36C9000CCF1EA /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB9223C87E046DECA039A7E20089F48 /* Protobuf.framework */; };
 		426F0D8F7A874C17AEECB1C0FD24BF33 /* sockaddr.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB39E324A376EEB78CE9C03A59BB7B6 /* sockaddr.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		428CEDBA5C817817BDCCC1E647F2F048 /* GPBRootObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E6EAEA6E83B31B281642AC42BF93E05 /* GPBRootObject.h */; };
 		428FB06716D90E8821DBFB5462CD05AA /* json_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 7235BF6D1F7DA001DF35CA362BEA8F2E /* json_common.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -2207,6 +2209,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423782201CD36C9000CCF1EA /* BoringSSL.framework in Frameworks */,
+				423782211CD36C9000CCF1EA /* Protobuf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

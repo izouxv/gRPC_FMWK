@@ -35,7 +35,7 @@
 #import "GPBUtilities_PackagePrivate.h"
 #import "GPBWireFormat.h"
 #import "GPBMessage_PackagePrivate.h"
-#import "google/protobuf/Descriptor.pbobjc.h"
+ #import <Protobuf/Descriptor.pbobjc.h>
 
 // The address of this variable is used as a key for obj_getAssociatedObject.
 static const char kTextFormatExtraValueKey = 0;

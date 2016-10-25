@@ -14,8 +14,8 @@
 #import "GPBExtensionRegistry.h"
 #import "GPBMessage.h"
 #import "GPBMessage_PackagePrivate.h"
-#import "GPBProtocolBuffers.h"
-#import "GPBProtocolBuffers_RuntimeSupport.h"
+#import <Protobuf/GPBProtocolBuffers.h>
+#import <Protobuf/GPBProtocolBuffers_RuntimeSupport.h>
 #import "GPBRootObject.h"
 #import "GPBRootObject_PackagePrivate.h"
 #import "GPBRuntimeTypes.h"
@@ -27,17 +27,17 @@
 #import "GPBUtilities_PackagePrivate.h"
 #import "GPBWellKnownTypes.h"
 #import "GPBWireFormat.h"
-#import "google/protobuf/Any.pbobjc.h"
-#import "google/protobuf/Api.pbobjc.h"
-#import "google/protobuf/Descriptor.pbobjc.h"
-#import "google/protobuf/Duration.pbobjc.h"
-#import "google/protobuf/Empty.pbobjc.h"
-#import "google/protobuf/FieldMask.pbobjc.h"
-#import "google/protobuf/SourceContext.pbobjc.h"
-#import "google/protobuf/Struct.pbobjc.h"
-#import "google/protobuf/Timestamp.pbobjc.h"
-#import "google/protobuf/Type.pbobjc.h"
-#import "google/protobuf/Wrappers.pbobjc.h"
+#import <Protobuf/Any.pbobjc.h>
+#import <Protobuf/Api.pbobjc.h>
+ #import <Protobuf/Descriptor.pbobjc.h>
+ #import <Protobuf/Duration.pbobjc.h>
+ #import <Protobuf/Empty.pbobjc.h>
+ #import <Protobuf/FieldMask.pbobjc.h>
+#import <Protobuf/SourceContext.pbobjc.h>
+ #import <Protobuf/Struct.pbobjc.h>
+ #import <Protobuf/Timestamp.pbobjc.h>
+ #import <Protobuf/Type.pbobjc.h>
+ #import <Protobuf/Wrappers.pbobjc.h>
 
 FOUNDATION_EXPORT double ProtobufVersionNumber;
 FOUNDATION_EXPORT const unsigned char ProtobufVersionString[];

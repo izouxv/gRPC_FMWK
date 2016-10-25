@@ -1,0 +1,54 @@
+{
+  "name": "RemoteTest",
+  "version": "0.0.1",
+  "license": "New BSD",
+  "authors": {
+    "gRPC contributors": "grpc-io@googlegroups.com"
+  },
+  "homepage": "http://www.grpc.io/",
+  "summary": "RemoteTest example",
+  "source": {
+    "git": "https://github.com/grpc/grpc.git"
+  },
+  "platforms": {
+    "ios": "7.1",
+    "osx": "10.9"
+  },
+  "dependencies": {
+    "!ProtoCompiler-gRPCPlugin": [
+
+    ]
+  },
+  "prepare_command": "../../../../bins/$CONFIG/protobuf/protoc         --plugin=protoc-gen-grpc=../../../../bins/$CONFIG/grpc_objective_c_plugin         --objc_out=.         --grpc_out=.         -I .         -I ../../../../third_party/protobuf/src         *.proto",
+  "pod_target_xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "subspecs": [
+    {
+      "name": "Messages",
+      "source_files": "*.pbobjc.{h,m}",
+      "header_mappings_dir": ".",
+      "requires_arc": false,
+      "dependencies": {
+        "Protobuf": [
+
+        ]
+      }
+    },
+    {
+      "name": "Services",
+      "source_files": "*.pbrpc.{h,m}",
+      "header_mappings_dir": ".",
+      "requires_arc": true,
+      "dependencies": {
+        "gRPC-ProtoRPC": [
+
+        ],
+        "RemoteTest/Messages": [
+
+        ]
+      }
+    }
+  ]
+}

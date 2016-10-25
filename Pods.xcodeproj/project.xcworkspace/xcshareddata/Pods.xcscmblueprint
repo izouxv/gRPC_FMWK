@@ -1,30 +1,37 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8B06E12A8BC7ADE97BC9AAF1FFA2035EEC0C9610",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD" : 0,
-    "482DBFFF4058FC4D341815E134C748E9E8C3E07F" : 0
+    "DBA6F8B12B84878540F44342C4772AC004D85ABD" : 9223372036854775807,
+    "8B06E12A8BC7ADE97BC9AAF1FFA2035EEC0C9610" : 9223372036854775807,
+    "B76A9786E45DA7F517EDF258727A83D05C5182FC" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0D9D3926-4564-46E2-8246-7EB3B8FC4F5E",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C52839C9-44E7-4A7B-8B70-C2CDF6A92ABD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD" : "todo\/",
-    "482DBFFF4058FC4D341815E134C748E9E8C3E07F" : ""
+    "DBA6F8B12B84878540F44342C4772AC004D85ABD" : "grpc\/third_party\/protobuf\/",
+    "8B06E12A8BC7ADE97BC9AAF1FFA2035EEC0C9610" : "grpc\/",
+    "B76A9786E45DA7F517EDF258727A83D05C5182FC" : "grpc\/third_party\/nanopb\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Pods",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "fisher\/mgr\/fish\/Carthage\/Checkouts\/gRPC_FMWK\/Pods.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "src\/objective-c\/examples\/Sample\/Pods\/Pods.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/fish.red\/zouxu\/goall",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/grpc\/grpc.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "482DBFFF4058FC4D341815E134C748E9E8C3E07F"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B06E12A8BC7ADE97BC9AAF1FFA2035EEC0C9610"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/fish.red\/zouxu\/todo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nanopb\/nanopb.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4EE552DDAE608C17BBF500A7ECE507F00AFCADCD"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B76A9786E45DA7F517EDF258727A83D05C5182FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/google\/protobuf.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DBA6F8B12B84878540F44342C4772AC004D85ABD"
     }
   ]
 }

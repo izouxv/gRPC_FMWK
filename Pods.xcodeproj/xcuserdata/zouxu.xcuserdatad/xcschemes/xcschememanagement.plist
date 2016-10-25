@@ -7,65 +7,92 @@
 		<key>BoringSSL.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<false/>
+		</dict>
+		<key>Pods-Sample.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Protobuf.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
-			<key>orderHint</key>
-			<integer>6</integer>
+			<false/>
+		</dict>
+		<key>RemoteTest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>gRPC-Core.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>gRPC-ProtoRPC.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>gRPC-RxLibrary.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>gRPC-gRPCCertificates.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>gRPC.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2F0DEE284B125511FBF8AEAEC0093ED6</key>
+		<key>3CE549970C26436469B31F93</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3BD43443ED5D98BB2009B4ADD3E5DE97</key>
+		<key>4569C8EBC0FE215C61D38D8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>40E383E4B79BA228A313483DA01686A9</key>
+		<key>91FC77528A92D9DD2F05D734</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>42F417611CD22D0B005D38BC</key>
+		<key>9B4BCD9B60FD7AA4E94F4F2B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>56E6D785F2F0DE144D17C95A5A3CA2D0</key>
+		<key>B880D54C22A4BC9E7FBE7075</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AC9600592B4F36A82E0F1770D734B389</key>
+		<key>BFAFE45E7F8417155E5C3113</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D34964DB8E97DE4A48EAFC2D18EB85F9</key>
+		<key>E348301B1EB00C96F304AFD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EACE5079AE95D3C228114BD3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F983459440FA3239E3E77E22</key>
 		<dict>
 			<key>primary</key>
 			<true/>

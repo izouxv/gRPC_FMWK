@@ -1,0 +1,85 @@
+PODS:
+  - '!ProtoCompiler (3.0.0)':
+    - Protobuf (~> 3.0)
+  - '!ProtoCompiler-gRPCPlugin (1.0.0)':
+    - '!ProtoCompiler (= 3.0.0)'
+    - gRPC-ProtoRPC (= 1.0.0)
+  - BoringSSL (6.0):
+    - BoringSSL/Implementation (= 6.0)
+    - BoringSSL/Interface (= 6.0)
+  - BoringSSL/Implementation (6.0):
+    - BoringSSL/Interface (= 6.0)
+  - BoringSSL/Interface (6.0)
+  - gRPC (1.0.0):
+    - gRPC-Core (= 1.0.0)
+    - gRPC-RxLibrary (= 1.0.0)
+  - gRPC-Core (1.0.0):
+    - gRPC-Core/Implementation (= 1.0.0)
+    - gRPC-Core/Interface (= 1.0.0)
+  - gRPC-Core/Implementation (1.0.0):
+    - BoringSSL (~> 6.0)
+    - gRPC-Core/Interface (= 1.0.0)
+  - gRPC-Core/Interface (1.0.0)
+  - gRPC-ProtoRPC (1.0.0):
+    - gRPC (= 1.0.0)
+    - gRPC-RxLibrary (= 1.0.0)
+    - Protobuf (~> 3.0)
+  - gRPC-RxLibrary (1.0.0)
+  - Protobuf (3.0.0)
+  - RemoteTest (0.0.1):
+    - '!ProtoCompiler-gRPCPlugin'
+    - RemoteTest/Messages (= 0.0.1)
+    - RemoteTest/Services (= 0.0.1)
+  - RemoteTest/Messages (0.0.1):
+    - '!ProtoCompiler-gRPCPlugin'
+    - Protobuf
+  - RemoteTest/Services (0.0.1):
+    - '!ProtoCompiler-gRPCPlugin'
+    - gRPC-ProtoRPC
+    - RemoteTest/Messages
+
+DEPENDENCIES:
+  - '!ProtoCompiler (from `./xxx/src/objective-c`)'
+  - '!ProtoCompiler-gRPCPlugin (from `./xxx/src/objective-c`)'
+  - BoringSSL (from `./xxx/src/objective-c`)
+  - gRPC (from `./xxx`)
+  - gRPC-Core (from `./xxx`)
+  - gRPC-ProtoRPC (from `./xxx`)
+  - gRPC-RxLibrary (from `./xxx`)
+  - Protobuf (from `./xxx/third_party/protobuf`)
+  - RemoteTest (from `./RemoteTestClient`)
+
+EXTERNAL SOURCES:
+  '!ProtoCompiler':
+    :path: ./xxx/src/objective-c
+  '!ProtoCompiler-gRPCPlugin':
+    :path: ./xxx/src/objective-c
+  BoringSSL:
+    :podspec: ./xxx/src/objective-c
+  gRPC:
+    :path: ./xxx
+  gRPC-Core:
+    :path: ./xxx
+  gRPC-ProtoRPC:
+    :path: ./xxx
+  gRPC-RxLibrary:
+    :path: ./xxx
+  Protobuf:
+    :path: ./xxx/third_party/protobuf
+  RemoteTest:
+    :path: ./RemoteTestClient
+
+SPEC CHECKSUMS:
+  '!ProtoCompiler': b2bedbd8cbdafca8f73c2c52abfcc1a5ce0f5ff7
+  '!ProtoCompiler-gRPCPlugin': c3f70b2094c99dcef29dd0658416f25c35a1c6f3
+  BoringSSL: 8de34f3100d671c9cbc494e1a462004c486d7e34
+  gRPC: 2d6b82f7a8773f933465bcbdf519a7cf8ebef41c
+  gRPC-Core: 7ce9d18a7fb9fffc0f57646608d0741782b16996
+  gRPC-ProtoRPC: 51745b5ebe4a844dc6e1ecf767d74ae3d124ea1e
+  gRPC-RxLibrary: 3a8c5543115fb2183ed5624678e7ecbac5e9e4ad
+  Protobuf: c032ce1bdf7a266acfd640fbfd8bdb166127c7f5
+  RemoteTest: c85e4150f24cf7b2f052e4f00fb3b926acbf995e
+
+PODFILE CHECKSUM: 17d40ad5afd397508e25f4f053758d297a078c6f
+
+COCOAPODS: 1.0.1

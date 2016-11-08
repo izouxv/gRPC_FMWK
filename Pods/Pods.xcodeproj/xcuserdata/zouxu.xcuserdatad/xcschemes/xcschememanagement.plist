@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>Pods-Sample.xcscheme</key>
+		<key>Pods-SampleMac.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -39,10 +39,10 @@
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>gRPC-gRPCCertificates.xcscheme</key>
+		<key>gRPC-gRPCCertificates.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>gRPC.xcscheme_^#shared#^_</key>
 		<dict>
@@ -52,47 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0727485F823235B164263849</key>
+		<key>269D9D1034C0EA60260F1621</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>094AFDDF7A4321D7893B2630</key>
+		<key>2A131085A1E928810D461F01</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1D76BB253C2DBE8DE09E0955</key>
+		<key>40A85879F40D0BB3D3E710D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>25933D0C39E4324C39040704</key>
+		<key>4170A135434797523D3E829E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3165B23568A414D0A53A23E8</key>
+		<key>60D5E73196AA4AC69748A085</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>67C3F404BB06F3C814BE1262</key>
+		<key>66F380BFD0C09B8A85153B2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A668B1957DC9F6157C2D3246</key>
+		<key>782A512B6874B32A5CDA1BD0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B7CE4B00677CFE750998D3D2</key>
+		<key>D3692B06C79B872979F8B474</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FB3BB94873A1491432D5B9CE</key>
+		<key>E38B7381A7E6349A864740A8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

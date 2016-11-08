@@ -1,16 +1,17 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
 
 install! 'cocoapods', :deterministic_uuids => false
 
-use_frameworks!# if ENV['FRAMEWORKS'] == 'YES'
+use_frameworks! if ENV['FRAMEWORKS'] == 'YES'
 
 # Location of gRPC's repo root relative to this file.
 GRPC_LOCAL_SRC = './xxx'
 
 target 'Sample' do
+platform :ios, '8.0'
+
   # Depend on the generated RemoteTestClient library
-  pod 'RemoteTest', :path => "./RemoteTestClient"
+  pod 'RemoteTest', :path => "../RemoteTestClient"
 
   # Use the local versions of Protobuf, BoringSSL, and gRPC. You don't need any of the following
   # lines in your application.

@@ -47,7 +47,7 @@ DEPENDENCIES:
   - gRPC-ProtoRPC (from `./xxx`)
   - gRPC-RxLibrary (from `./xxx`)
   - Protobuf (from `./xxx/third_party/protobuf`)
-  - RemoteTest (from `./RemoteTestClient`)
+  - RemoteTest (from `../RemoteTestClient`)
 
 EXTERNAL SOURCES:
   '!ProtoCompiler':
@@ -67,7 +67,7 @@ EXTERNAL SOURCES:
   Protobuf:
     :path: ./xxx/third_party/protobuf
   RemoteTest:
-    :path: ./RemoteTestClient
+    :path: ../RemoteTestClient
 
 SPEC CHECKSUMS:
   '!ProtoCompiler': b2bedbd8cbdafca8f73c2c52abfcc1a5ce0f5ff7
@@ -80,6 +80,6 @@ SPEC CHECKSUMS:
   Protobuf: c032ce1bdf7a266acfd640fbfd8bdb166127c7f5
   RemoteTest: c85e4150f24cf7b2f052e4f00fb3b926acbf995e
 
-PODFILE CHECKSUM: 17d40ad5afd397508e25f4f053758d297a078c6f
+PODFILE CHECKSUM: 730d1edb646570c83cbf4bfd76ebffb48362df7d
 
 COCOAPODS: 1.0.1

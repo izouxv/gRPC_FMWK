@@ -2,8 +2,31 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Sample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>SampleMac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>42636C001DD18E7400DA1F50</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42636C081DD18E7400DA1F50</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6369A2691A9322E20015FC5C</key>
 		<dict>
 			<key>primary</key>

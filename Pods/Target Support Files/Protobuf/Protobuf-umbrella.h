@@ -1,4 +1,4 @@
-#import <UIKit/UIKit.h>
+//#import <Cocoa/Cocoa.h>
 
 #import "GPBArray.h"
 #import "GPBArray_PackagePrivate.h"

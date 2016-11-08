@@ -1,4 +1,4 @@
-#import <UIKit/UIKit.h>
+#import <Cocoa/Cocoa.h>
 
 #import "ProtoMethod.h"
 #import "ProtoRPC.h"

@@ -1,4 +1,4 @@
-#import <UIKit/UIKit.h>
+#import <Cocoa/Cocoa.h>
 
 #import "Empty.pbobjc.h"
 #import "Messages.pbobjc.h"

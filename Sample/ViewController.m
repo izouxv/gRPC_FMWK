@@ -35,10 +35,8 @@
 
 #import <GRPCClient/GRPCCall.h>
 #import <ProtoRPC/ProtoMethod.h>
-//#import <RemoteTest/Messages.pbobjc.h>
-//#import <RemoteTest/Test.pbrpc.h>
-#import "Messages.pbobjc.h"
-#import "Test.pbrpc.h"
+#import <RemoteTest/Messages.pbobjc.h>
+#import <RemoteTest/Test.pbrpc.h>
 #import <RxLibrary/GRXWriter+Immediate.h>
 #import <RxLibrary/GRXWriteable.h>
 

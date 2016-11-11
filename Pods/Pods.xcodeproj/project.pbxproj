@@ -6143,7 +6143,6 @@
 				5FF11736209214EAB258A4E3 /* Copy . Public Headers */,
 				660D5C56CDC671C5593BC77D /* Copy private Private Headers */,
 				BB0098C39444E00BCF60C0D2 /* Copy transformations Public Headers */,
-				02A607947FFBC7CC10A0542D /* Create Symlinks to Header Folders */,
 			);
 			buildRules = (
 			);
@@ -6222,7 +6221,6 @@
 				A34FAFA7BDE856011AA6688A /* Headers */,
 				FA1FA85E703CB5BFAFF4D636 /* Copy . Public Headers */,
 				B1B24FE436D9B9EC01198F52 /* Copy private Private Headers */,
-				0C01F78BA17A54A6D7BEB05F /* Create Symlinks to Header Folders */,
 			);
 			buildRules = (
 			);
@@ -6278,7 +6276,6 @@
 				C233B8CDCA95D4FA20324931 /* Copy support Public Headers */,
 				AFED91D30586F3C11CB81E3C /* Copy impl/codegen Public Headers */,
 				A03D0714DFACE7D1D917203B /* Copy . Public Headers */,
-				642A2B92FB3B80630E7CD231 /* Create Symlinks to Header Folders */,
 			);
 			buildRules = (
 			);
@@ -6298,7 +6295,6 @@
 				5F8111D161A87BE794250F90 /* Frameworks */,
 				B175FF8B7072CC63E7232A8B /* Headers */,
 				E38004400C15D1ECDB1393C0 /* Copy . Public Headers */,
-				37723CFAF8A22D6A458A457A /* Create Symlinks to Header Folders */,
 			);
 			buildRules = (
 			);
@@ -6344,7 +6340,6 @@
 				420B45E7B8B14D3E3B2DA45E /* Copy ../../crypto/x509 Private Headers */,
 				6F5172F6383255F3176F49E0 /* Copy ../../crypto/x509v3 Private Headers */,
 				CB67AA84159D24B1FFA448DF /* Copy . Public Headers */,
-				2CB4A5EFAF3E90F39C2A5058 /* Create Symlinks to Header Folders */,
 			);
 			buildRules = (
 			);
@@ -6406,79 +6401,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		02A607947FFBC7CC10A0542D /* Create Symlinks to Header Folders */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Create Symlinks to Header Folders";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd \"$CONFIGURATION_BUILD_DIR/$WRAPPER_NAME\"\nln -fs ${PUBLIC_HEADERS_FOLDER_PATH#$WRAPPER_NAME/} ${PUBLIC_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\nln -fs ${PRIVATE_HEADERS_FOLDER_PATH#$WRAPPER_NAME/} ${PRIVATE_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\n";
-		};
-		0C01F78BA17A54A6D7BEB05F /* Create Symlinks to Header Folders */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Create Symlinks to Header Folders";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd \"$CONFIGURATION_BUILD_DIR/$WRAPPER_NAME\"\nln -fs ${PUBLIC_HEADERS_FOLDER_PATH#$WRAPPER_NAME/} ${PUBLIC_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\nln -fs ${PRIVATE_HEADERS_FOLDER_PATH#$WRAPPER_NAME/} ${PRIVATE_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\n";
-		};
-		2CB4A5EFAF3E90F39C2A5058 /* Create Symlinks to Header Folders */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Create Symlinks to Header Folders";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd \"$CONFIGURATION_BUILD_DIR/$WRAPPER_NAME\"\nln -fs ${PUBLIC_HEADERS_FOLDER_PATH#$WRAPPER_NAME/} ${PUBLIC_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\nln -fs ${PRIVATE_HEADERS_FOLDER_PATH#$WRAPPER_NAME/} ${PRIVATE_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\n";
-		};
-		37723CFAF8A22D6A458A457A /* Create Symlinks to Header Folders */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Create Symlinks to Header Folders";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd \"$CONFIGURATION_BUILD_DIR/$WRAPPER_NAME\"\nln -fs ${PUBLIC_HEADERS_FOLDER_PATH#$WRAPPER_NAME/} ${PUBLIC_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\nln -fs ${PRIVATE_HEADERS_FOLDER_PATH#$WRAPPER_NAME/} ${PRIVATE_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\n";
-		};
-		642A2B92FB3B80630E7CD231 /* Create Symlinks to Header Folders */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Create Symlinks to Header Folders";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd \"$CONFIGURATION_BUILD_DIR/$WRAPPER_NAME\"\nln -fs ${PUBLIC_HEADERS_FOLDER_PATH#$WRAPPER_NAME/} ${PUBLIC_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\nln -fs ${PRIVATE_HEADERS_FOLDER_PATH#$WRAPPER_NAME/} ${PRIVATE_HEADERS_FOLDER_PATH#$CONTENTS_FOLDER_PATH/}\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08013AC2592A6666069EC97A /* Sources */ = {

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BoringSSL.xcscheme_^#shared#^_</key>
+		<key>BoringSSL.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
@@ -24,27 +24,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>gRPC-Core.xcscheme_^#shared#^_</key>
+		<key>gRPC-Core.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>gRPC-ProtoRPC.xcscheme_^#shared#^_</key>
+		<key>gRPC-ProtoRPC.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>gRPC-RxLibrary.xcscheme_^#shared#^_</key>
+		<key>gRPC-RxLibrary.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>gRPC-gRPCCertificates.xcscheme_^#shared#^_</key>
+		<key>gRPC-gRPCCertificates.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>gRPC.xcscheme_^#shared#^_</key>
+		<key>gRPC.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>

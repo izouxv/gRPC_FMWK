@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5CF50C2FB5BA044781A1E7D66E045FE9FFE91447",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0604CB31756506291D50C78DDB3354A651316ADA" : 9223372036854775807,
+    "8035FEC93438E4FB827455F1B4EA2CC61CC9CB03" : 9223372036854775807,
+    "BC93C192DF7F24567F1E730735D1702C39D9A9FD" : 9223372036854775807,
+    "69ECF80867AF67104396451968CB6E732625368C" : 9223372036854775807,
+    "5CF50C2FB5BA044781A1E7D66E045FE9FFE91447" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "39045454-23FE-4A1F-B6EA-749761D2EA7B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0604CB31756506291D50C78DDB3354A651316ADA" : "..\/..",
+    "8035FEC93438E4FB827455F1B4EA2CC61CC9CB03" : "..\/..\/..\/..\/..",
+    "BC93C192DF7F24567F1E730735D1702C39D9A9FD" : "..\/..\/..\/..\/..\/..",
+    "69ECF80867AF67104396451968CB6E732625368C" : "..\/..\/..\/..\/..\/..\/..\/..",
+    "5CF50C2FB5BA044781A1E7D66E045FE9FFE91447" : "gRPC_FMWK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pods",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Pods\/Pods.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/fish.red\/fish\/fish_xieyi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0604CB31756506291D50C78DDB3354A651316ADA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/izouxv\/gRPC_FMWK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5CF50C2FB5BA044781A1E7D66E045FE9FFE91447"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/fish.red\/zouxu\/todo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "69ECF80867AF67104396451968CB6E732625368C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/fish.red\/fish\/fish_main.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8035FEC93438E4FB827455F1B4EA2CC61CC9CB03"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/fish.red\/zouxu\/iosAll.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC93C192DF7F24567F1E730735D1702C39D9A9FD"
+    }
+  ]
+}
